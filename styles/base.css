@@ -1,0 +1,105 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header img {
+    padding: 2rem;
+    filter: drop-shadow(-10px -10px 10px black);
+}
+
+header span {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+nav {
+    background-color: lightseagreen;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#first {
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    box-shadow: 5px 5px 10px black;
+}
+
+.card ul {
+    padding: 1rem;
+}
+
+.card ul li {
+    padding: 0.5rem;
+}
+
+.card p {
+    padding: 1rem;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    background-color: darkblue;
+    padding: 1rem;
+    color: white;
+}
+
+footer {
+    padding: 2rem;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
