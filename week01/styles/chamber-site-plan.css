@@ -69,6 +69,11 @@ p {
     padding: 25px;
 }
 
+.name {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
 .purpose {
     background-color: var(--accent1-color);
 }
