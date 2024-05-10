@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #574B60;
+    --secondary-color: #3F334D;
+    --accent1-color: #7D8491;
+    --accent2-color: #C0C5C1;
+    --accent3-color: #EAF0CE;
+
+    --heading-font: "Noto Sans", sans-serif;
+    --paragraph-font: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    text-align: center;
+}
+
+header p {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+
+nav {
+    background-color: var(--accent2-color);
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+p {
+    margin: 0;
+    padding: 25px;
+}
+
+.purpose {
+    background-color: var(--accent1-color);
+}
+
+.scenarios {
+    background-color: var(--accent3-color);
+}
+
+.scenarios h2 {
+    color: black;
+}
+
+table, th, td {
+   margin: 0 auto;
+   border: 1px solid;
+   border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+.palette h2 {
+    color: black;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+}
+
+.typography {
+    background-color: var(--accent1-color);
+}
+
+.wireframe {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+footer p {
+    color: white;
+}
