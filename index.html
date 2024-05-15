@@ -22,9 +22,11 @@
     <header>
         <img src="images/profile.webp" alt="Nefi Raul Serrano Ramirez Profile" width="200" height="266">
         <span>Nefi Raul Serrano Ramirez</span>
+        <img src="images/night-mode.png" alt="Dark Mode" width="50" id="darkMode">
     </header>
     <nav>
-        <ul>
+        <button id="menu"></button>
+        <ul class="links">
             <li class="active"><a id="first" href="#">Home</a></li>
             <li><a href="#">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
@@ -36,12 +38,12 @@
             <picture>
                 <source srcset="images/puebla-mexico-temple-exterior-mobile.webp" media="(min-width: 400px)">
                 <source srcset="images/puebla-mexico-temple-exterior-landscape.webp" media="(min-width: 960px)">
-                <img src="images/puebla-mexico-temple-exterior.webp" alt="Puebla Mexico Temple" width="320px" height="240px">
+                <img src="images/puebla-mexico-temple-exterior.webp" alt="Puebla Mexico Temple" width="320" height="240">
             </picture>
         </div>
-        <h1>WDD 230: Web Frontend Development</h1>
+        <h1 id="title">WDD 230: Web Frontend Development</h1>
         <div class="parent">
-            <section class="card">
+            <section class="card" id="card1">
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>
@@ -62,7 +64,7 @@
                     <li><a href="#">Week 06:</a></li>
                 </ul>
             </section>
-            <section class="card">
+            <section class="card" id="card2">
                 <h2>Information</h2>
                 <p>Weather</p>
                 <p>Number of visits</p>
@@ -74,5 +76,7 @@
         <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
 </body>
 </html>

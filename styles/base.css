@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     background-color: darkblue;
     align-items: center;
@@ -32,8 +33,36 @@ nav {
     background-color: lightseagreen;
 }
 
-ul {
+#menu::before {
+    content: "\2630";
+    font-size: 2.3rem;
+}
+
+#menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 44px;
+    text-align: right;
+    padding: .25rem 2vw;
+    position: absolute;
+    top: 3vw;
+    right: 3vw;
+    color: white;
+}
+
+.links li {
+    display: none;
     list-style-type: none;
+}
+
+#menu.open::before {
+    content: "x";
+}
+
+.open li {
+    display: block;
 }
 
 nav a {
@@ -62,6 +91,26 @@ ul {
     padding: 0;
 }
 
+#darkMode {
+    padding: 0;
+    position: absolute;
+    cursor: pointer;
+    top: 3vw;
+    right: 70px;
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    color: white;
+}
+
+.darker {
+    background-color: white;
+}
+
 main {
     padding: 2rem;
 }
@@ -78,7 +127,7 @@ main {
 }
 
 .card ul {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .card ul li {
