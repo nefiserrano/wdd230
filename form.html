@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Course Assignment Portal for WDD 230 - Web Frontend Development class made by Nefi Raul Serrano Ramirez.">
+    <meta name="author" content="Nefi Raúl Serrano Ramírez">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Nefi Raul Serrano Ramirez" width="200" height="266">
+        <span>Nefi Raul Serrano Ramirez</span>
+        <img src="images/night-mode.png" alt="Dark Mode" width="50" id="darkMode">
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="links">
+            <li class="active"><a id="first" href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <fieldset>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </fieldset>
+            <fieldset>
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </fieldset>
+            <fieldset>
+                <label for="password">Enter your password again:</label>
+                <input type="password" id="password" name="password">
+            </fieldset>
+            <label for="r">INPUT: range, min, max, datalist, required</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+            	<option value="0">0</option>
+            	<option value="1">1</option>
+            	<option value="2">2</option>
+            	<option value="3">3</option>
+            	<option value="4">4</option>
+            	<option value="5">5</option>
+                <option value="6">5</option>
+                <option value="7">5</option>
+                <option value="8">5</option>
+                <option value="9">5</option>
+                <option value="10">5</option>
+            </datalist>
+            </form>
+            <button type="submit">Send my message</button>
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> | Nefi Raúl Serrano Ramírez | Pachuca, Mexico</p>
+        <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+    </footer>
+</body>
+</html>

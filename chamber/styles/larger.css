@@ -1,0 +1,41 @@
+@media screen and (min-width: 500px) {
+    header p {
+        position: absolute;
+        top: 130px;
+        left: 30px;
+        font-size: 25px;
+        color: white;
+    }
+    
+    header input {
+        position: absolute;
+        top: 200px;
+        left: 240px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    .parent {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .advertisement img {
+        width: 700px;
+    }
+}
