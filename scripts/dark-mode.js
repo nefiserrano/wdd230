@@ -10,8 +10,8 @@ darkButton.addEventListener('click', () => {
     firstCard.classList.toggle('darker');
     secondCard.classList.toggle('darker');
     if (main.classList.contains('dark')) {
-        darkButton.src = "images/day-mode.png";
+        darkButton.src = "images/day-mode.webp";
     } else {
-        darkButton.src = "images/night-mode.png";
+        darkButton.src = "images/night-mode.webp";
     }
 })

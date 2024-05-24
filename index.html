@@ -22,7 +22,7 @@
     <header>
         <img src="images/profile.webp" alt="Nefi Raul Serrano Ramirez" width="200" height="266">
         <span>Nefi Raul Serrano Ramirez</span>
-        <img src="images/night-mode.png" alt="Dark Mode" width="50" id="darkMode">
+        <img src="images/night-mode.webp" alt="Dark Mode" width="50" id="darkMode">
     </header>
     <nav>
         <button id="menu"></button>
@@ -34,12 +34,13 @@
         </ul>
     </nav>
     <main>
-        <div>
+        <div class="hero">
             <picture>
-                <source srcset="images/puebla-mexico-temple-exterior-mobile.webp" media="(min-width: 400px)">
-                <source srcset="images/puebla-mexico-temple-exterior-landscape.webp" media="(min-width: 960px)">
-                <img src="images/puebla-mexico-temple-exterior.webp" alt="Puebla Mexico Temple" width="320" height="240">
+                <source srcset="images/nigeria-hero-image-small.webp" media="(max-width: 400px)">
+                <source srcset="images/nigeria-hero-image-medium.webp" media="(max-width: 960px)">
+                <img src="images/nigeria-hero-image-large.webp" alt="Aba, Nigeria Temple" width="500" height="250">
             </picture>
+            <span>Aba, Nigeria Temple</span>
         </div>
         <h1 id="title">WDD 230: Web Frontend Development</h1>
         <div class="parent">
@@ -73,8 +74,16 @@
             <section class="card" id="card2">
                 <h2>Information</h2>
                 <p>Weather</p>
-                <p>Number of visits</p>
+                <p><span class="label">Visit Count: </span><span class="visits"></span></p>
             </section>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25163.
+            683505894387!2d-98.77197015191074!3d20.099671207112028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x85d1a7716f1e038b%3A0x13315c101496b749!2sPachuca%2C%20Hgo.
+            !5e0!3m2!1sen!2smx!4v1716526132474!5m2!1sen!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -84,5 +93,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/visit-counter.js"></script>
 </body>
 </html>

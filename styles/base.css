@@ -111,8 +111,33 @@ ul {
     background-color: white;
 }
 
-main {
-    padding: 2rem;
+.hero {
+    position: relative;
+    padding: 0;
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero span {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 0.8rem;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1.5rem;
 }
 
 .parent {
@@ -120,6 +145,7 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     margin-top: 1rem;
+    padding: 2rem;
 }
 
 .card {
@@ -144,6 +170,22 @@ h2 {
     background-color: darkblue;
     padding: 1rem;
     color: white;
+}
+
+.card p {
+    text-align: center;
+}
+
+.label {
+    font-weight: bolder;
+}
+
+.map {
+    padding: 2rem;
+}
+
+.map iframe {
+    width: 100%;
 }
 
 footer {

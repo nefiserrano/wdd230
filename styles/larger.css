@@ -19,6 +19,19 @@
         right: 3vw;
     }
 
+    .hero {
+        padding: 2rem;
+    }
+
+    .hero span {
+        font-size: 1.8rem;
+        top: 45%;
+    }
+
+    h1 {
+        padding-top: 0;
+    }
+
     .parent {
         grid-template-columns: 2fr 1fr;
     }
