@@ -24,6 +24,10 @@ h1, h2, h3 {
     padding: 2rem;
 }
 
+p {
+    padding: 1rem;
+}
+
 h1 {
     color: white;
     margin: 0;
@@ -111,19 +115,17 @@ nav a:hover {
 .parent {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
     margin: 1rem;
 }
 
-.parent section h3 {
+.card h3 {
     text-align: center;
     background-color: var(--secondary-color);
     padding: 1rem;
     color: white;
 }
 
-.parent section p {
-    padding: 1rem;
+.card p {
     background-color: var(--accent3-color);
 }
 
@@ -157,4 +159,22 @@ footer {
 
 footer p {
     color: white;
+}
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card figure {
+    padding: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
 }
