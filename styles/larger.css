@@ -39,4 +39,28 @@
     header span {
         font-size: 3rem;
     }
+
+    .wf1 {
+        max-width: 400px;
+    }
+
+    .wf1 input[type="text"],
+    .wf1 input[type="password"],
+    .wf1 input[type="email"] {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    #rating {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    #rangevalues {
+        max-width: 500px;
+    }
+
+    #rangevalues option {
+        text-align: center;
+    }
 }

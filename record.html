@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Submission Confirmed Page</title>
+    <meta name="description" content="Submission Confirmed Page for HTML Form Assignment for WDD 230 - Web Frontend Development class made by Nefi Raul Serrano Ramirez.">
+    <meta name="author" content="Nefi Raúl Serrano Ramírez">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Nefi Raul Serrano Ramirez" width="200" height="266">
+        <span>Nefi Raul Serrano Ramirez</span>
+        <img src="images/night-mode.webp" alt="Dark Mode" width="50" id="darkMode">
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a id="first" href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Information Submitted Correctly</h1>
+        <p>Thank you for taking the time to fill out this form.</p>      
+    </main>  
+    <footer>
+        <p>©<span id="currentYear"></span> | Nefi Raúl Serrano Ramírez | Pachuca, Mexico</p>
+        <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+</body>
+</html>
