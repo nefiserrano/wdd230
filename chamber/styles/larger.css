@@ -46,4 +46,16 @@
     .card img:hover {
         box-shadow: 0 0 50px #333;
     }
+
+    .join {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    table {
+        margin: 2.5rem 2rem;
+    }
+
+    th, td {
+        padding: 30px 15px;
+    }
 }

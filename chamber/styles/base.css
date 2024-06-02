@@ -7,6 +7,7 @@
 
     --heading-font: "Noto Sans", sans-serif;
     --paragraph-font: "Open Sans", sans-serif;
+    --zebra: hsl(0, 0%, 93%, 1);
 }
 
 * {
@@ -177,4 +178,109 @@ footer p {
 .card img {
     width: 100%;
     height: auto;
+}
+
+.join {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.wf1 {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 3px solid var(--primary-color);
+    border-radius: 6px;
+    background-color: var(--accent3-color);
+}
+
+.wf1 legend {
+    color: var(--secondary-color);
+    padding: 0 0.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.wf1 div {
+    padding: 0.6rem;
+    text-align: left;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+textarea
+{
+    background-color: var(--accent2-color);
+    display: block;
+    border: solid 1px var(--accent1-color);
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 240px;
+    appearance: none;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 96%;
+    max-width: 300px;
+    margin: 0 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    font-weight: bold;
+    text-wrap: wrap;
+}
+
+.wf1 input[type="radio"], .wf1 input[type="submit"] {
+    cursor: pointer;
+}
+
+.wf1 input:required {
+    border-right: solid 8px var(--primary-color);
+}
+
+.wf1 input:required:valid {
+    border-right: solid 8px var(--accent1-color);
+}
+
+table {
+	margin: 2rem 0.5rem;
+	border: thin solid var(--primary-color);
+	border-collapse: collapse;
+}
+
+tr:first-child th {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+th, td {
+	padding: 5px;
+	border: 1px solid var(--primary-color);
+}
+
+th {
+	background-color: var(--accent2-color);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
 }
