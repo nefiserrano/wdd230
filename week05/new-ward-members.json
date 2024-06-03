@@ -1,0 +1,29 @@
+{
+    "familyName" : "Anderson",
+    "dateMovedIn" : "06/01/2024",
+    "numberOfRecords" : 4,
+    "bishopricVisit" : true,
+    "active" : true,
+    "familyMembers" : [
+      {
+        "name" : "Karen Anderson",
+        "gender" : "Female",
+        "birthdate" : "09/03/1982"
+      },
+      {
+        "name" : "John Anderson",
+        "gender" : "Male",
+        "birthdate" : "12/19/1980"
+      },
+      {
+        "name" : "Mike Anderson",
+        "gender" : "Male",
+        "birthdate" : "05/21/2002"
+      },
+      {
+        "name" : "Cindy Anderson",
+        "gender" : "Female",
+        "birthdate" : "01/22/2004"
+      }
+    ]
+}
