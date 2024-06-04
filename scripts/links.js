@@ -1,10 +1,31 @@
 const baseURL = "https://nefiserrano.github.io/wdd230/";
 const linksURL = "https://nefiserrano.github.io/wdd230/data/links.json";
+const learningActivities = document.querySelector('#learning-activities')
 
 async function getLinks() {
     const response = await fetch(linksURL);
     const data =  await response.json();
-    console.log(data);
+    displayLinks(data);
 }
 
 getLinks();
+
+function displayLinks(weeks) {
+    weeks.forEach((week) => {
+        let listItem = document.createElement('li');
+        let weekNumber = document.createElement('span');
+        let list = document.createElement('ul');
+
+        week.links.forEach((link) => {
+            let linkItem = document.createElement('li');
+            let anchor = document.createElement('a');
+            anchor.href = link.url;
+            anchor.textContent = link.title;
+            linkItem.appendChild(anchor);
+            list.appendChild(linkItem);
+        });
+
+        listItem.appendChild(list);
+        learningActivities.appendChild(listItem);
+    });
+}
