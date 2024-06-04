@@ -10,7 +10,7 @@ async function getLinks() {
 
 getLinks();
 
-function displayLinks(weeks) {
+const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         let listItem = document.createElement('li');
         let weekNumber = document.createElement('span');
