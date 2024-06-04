@@ -11,9 +11,8 @@ async function getLinks() {
 getLinks();
 
 const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
+    weeks.weeks.forEach((week) => {
         let listItem = document.createElement('li');
-        let weekNumber = document.createElement('span');
         let list = document.createElement('ul');
 
         week.links.forEach((link) => {
@@ -25,6 +24,7 @@ const displayLinks = (weeks) => {
             list.appendChild(linkItem);
         });
 
+        listItem.textContent = week.week;
         listItem.appendChild(list);
         learningActivities.appendChild(listItem);
     });

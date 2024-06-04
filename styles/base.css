@@ -148,12 +148,14 @@ h1 {
     box-shadow: 5px 5px 10px black;
 }
 
-.card ul {
+#learning-activities {
     padding: 2rem;
 }
 
-.card ul li {
-    padding: 0.5rem;
+#learning-activities li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 1rem;
 }
 
 h2 {
