@@ -12,17 +12,23 @@ header {
     color: white;
 }
 
+.profile {
+    width: 130px;
+    height: auto;
+}
+
 header img {
-    padding: 2rem;
+    padding: 1rem;
     filter: drop-shadow(-10px -10px 10px black);
 }
 
 header span {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border-bottom: 1px solid black;

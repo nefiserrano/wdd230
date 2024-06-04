@@ -1,4 +1,21 @@
 @media screen and (min-width: 500px) {
+    .profile {
+        width: 200px;
+    }
+
+    header img {
+        padding: 2rem;
+    }
+    
+    header span {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
     .links {
         display: flex;
     }
