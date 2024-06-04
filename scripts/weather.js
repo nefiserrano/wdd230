@@ -1,8 +1,9 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const lat = 49.75;
-const long = 6.64
+const loc = document.querySelector('#location')
+const lat = 20.10;
+const long = -98.75;
 const key = '100ddd46bfe64ebdb9d0c95291c79f2a'
 
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}&units=imperial`;
@@ -30,4 +31,5 @@ function displayResults(data) {
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', 'Weather Icon');
   captionDesc.textContent = `${desc}`;
+  loc.textContent = `${data.name}`;
 }
