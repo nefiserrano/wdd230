@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pachuca Chamber of Commerce | WDD 230 | Nefi Raul Serrano Ramirez</title>
-    <meta name="description" content="This is a website for a Chamber of Commerce located in Pachuca, Mexico made by Nefi Raul Serrano Ramirez.">
+    <title>Pachuca Chamber of Commerce | Directory Page</title>
+    <meta name="description" content="This is the directory page for a Chamber of Commerce located in Pachuca, Mexico made by Nefi Raul Serrano Ramirez.">
     <meta name="author" content="Nefi Raúl Serrano Ramírez">
     <meta property="og:title" content="Pachuca Chamber of Commerce Website">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nefiserrano.github.io/wdd230/chamber/">
+    <meta property="og:url" content="https://nefiserrano.github.io/wdd230/chamber/directory.html">
     <meta property="og:image" content="https://www.pachuca.gob.mx/portal/wp-content/uploads/2021/05/plaza-independencia-pachuca.jpg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -33,46 +33,15 @@
     <nav>
         <button id="menu"></button>
         <ul>
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="#">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Current Events</h2>
-        <div class="parent">
-            <section class="card">
-                <h3>Event</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </section>
-            <section class="card">
-                <h3>Event</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 </p>
-            </section>
-            <section class="card">
-                <h3>Event</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 </p>
-            </section>
-        </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <p>20° C</p>
-        </div>
-        <div class="advertisement">
-            <h2>Take a look to our patreons!</h2>
-            <img src="images/advertisement1.webp" alt="Finance Advertisement">
-            <img src="images/advertisement2.webp" alt="Vacations Advertisement">
-        </div>
+        <h2>Directory</h2>
+        <div id="companies-list"></div>
     </main>
     <footer>
         <p>Email: pachuca_chacom24@gmail.com | Phone: +52 1 771 873 9569</p>

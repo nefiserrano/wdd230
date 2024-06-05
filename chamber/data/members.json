@@ -1,0 +1,67 @@
+{
+    "companies" : [
+        {
+            "name" : "Liverpool",
+            "address" : "Camino Real de La Plata 100, Zona Plateada, 42080 Pachuca de Soto, Hgo",
+            "phone" : "771 717 8800",
+            "website" : "https://www.liverpool.com.mx/tienda/home",
+            "image" : "images/liverpool.webp",
+            "membership" : "Gold Membership",
+            "representative" : "Carlos Macedo"
+        },
+        {
+            "name" : "Aurrera",
+            "address" : "Blvrd Nuevo Hidalgo 509, Colonias, 42083 Pachuca de Soto, Hgo",
+            "phone" : "771 710 8802",
+            "website" : "https://www.bodegaaurrera.com.mx/inicio",
+            "image" : "images/aurrera.webp",
+            "membership" : "Bronze Membership",
+            "representative" : "Arturo Quiroz"
+        },
+        {
+            "name" : "Sam's Club",
+            "address" : "Viad. Río de las Avenidas 701, Terrazas, 42098 Pachuca de Soto, Hgo",
+            "phone" : "771 713 4916",
+            "website" : "https://www.sams.com.mx/",
+            "image" : "images/sams.webp",
+            "membership" : "Gold Membership",
+            "representative" : "Ximena Hernández"
+        },
+        {
+            "name" : "Cinemex",
+            "address" : "Blvrd Luis Donaldo Colosio 2009, Ex-hacienda de Coscotitlán, 42064 Pachuca de Soto, Hgo",
+            "phone" : "55 5257 6969",
+            "website" : "https://cinemex.com/",
+            "image" : "images/cinemex.webp",
+            "membership" : "Silver Membership",
+            "representative" : "Alexa Ramírez"
+        },
+        {
+            "name" : "Benjie's",
+            "address" : "Av Revolución 1107, Periodistas, 42060 Pachuca de Soto, Hgo",
+            "phone" : "771 714 4541",
+            "website" : "https://www.grupobenjies.com/copia-de-men%C3%BA-benjies-ju%C3%A1rez",
+            "image" : "images/benjies.webp",
+            "membership" : "NP Membership",
+            "representative" : "Emilio Montoya"
+        },
+        {
+            "name" : "Chedraui",
+            "address" : "Blvrd Nuevo Hidalgo S/N, Colonias, 42083 Pachuca de Soto, Hgo",
+            "phone" : "800 925 1111",
+            "website" : "https://www.chedraui.com.mx/",
+            "image" : "images/chedraui.webp",
+            "membership" : "NP Membership",
+            "representative" : "Olivia Ruiz"
+        },
+        {
+            "name" : "Elektra",
+            "address" : "Blvd. Felipe Ángeles, Privada Sta Patricia, 42185 Pachuca de Soto, Hgo",
+            "phone" : "55 7577 5547",
+            "website" : "https://www.elektra.mx/",
+            "image" : "images/elektra.webp",
+            "membership" : "Silver Membership",
+            "representative" : "Rafael Estrada"
+        }
+    ]
+}
