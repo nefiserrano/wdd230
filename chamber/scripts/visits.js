@@ -12,7 +12,7 @@ if (localStorage.getItem('lastVisit')) {
     } else if (diffDays === 1) {
         visitElement.innerHTML = "You last visited 1 day ago.";
     } else {
-        visitElement.innerHTML = `You last visited ${diffdays} days ago.`;
+        visitElement.innerHTML = `You last visited ${diffDays} days ago.`;
     }
 } else {
     visitElement.innerHTML = "Welcome! Let us know if you have any questions.";

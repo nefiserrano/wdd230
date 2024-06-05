@@ -29,6 +29,9 @@ const displayCompanies = (companies) => {
         let representative = document.createElement('p');
 
         companyName.textContent = company.name;
+        sectionElement.setAttribute('class', 'card')
+        membership.setAttribute('class', 'remove')
+        representative.setAttribute('class', 'remove')
         logo.setAttribute('src', company.image);
         logo.setAttribute('alt', `Logo of ${company.name}`);
         logo.setAttribute('loading', 'lazy');
@@ -39,7 +42,7 @@ const displayCompanies = (companies) => {
         website.href = company.website;
         website.textContent = company.website;
         membership.textContent = company.membership;
-        representative.textContent = company.representative;
+        representative.textContent = `Representative: ${company.representative}`
 
         sectionElement.appendChild(companyName);
         sectionElement.appendChild(logo);
@@ -48,5 +51,22 @@ const displayCompanies = (companies) => {
         sectionElement.appendChild(website);
         sectionElement.appendChild(membership);
         sectionElement.appendChild(representative);
+        companiesList.appendChild(sectionElement);
     });
+}
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#companies-list");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
 }

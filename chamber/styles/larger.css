@@ -31,7 +31,7 @@
         flex: 1 1 100%;
     }
 
-    .parent {
+    .parent  {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
@@ -57,5 +57,22 @@
 
     th, td {
         padding: 30px 15px;
+    }
+
+    .grid section img {
+        width: 300px;
+    }
+
+    .list section a {
+        max-width: 60%;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    }
+    
+    .list section h3 {
+        width: 100px;
     }
 }

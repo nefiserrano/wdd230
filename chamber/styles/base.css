@@ -126,10 +126,6 @@ nav a:hover {
     color: white;
 }
 
-.card p {
-    background-color: var(--accent3-color);
-}
-
 .weather {
     background-color: var(--primary-color);
 }
@@ -168,7 +164,8 @@ footer p {
 }
 
 .card {
-    padding: 1rem;
+    background-color: var(--accent3-color);
+    margin: 1rem;
 }
 
 .card figure {
@@ -283,4 +280,63 @@ td {
 
 tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
+}
+
+#grid, #list {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.grid section img {
+    width: 250px;
+    height: auto;
+    margin: 1rem;
+    max-width: 360px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    margin: 1.5rem;
+}
+
+.list section {
+	margin: 0;
+}
+
+.list section img, .list .remove {
+    display: none;
+}
+
+.list section h3 {
+	font-size: 1.2rem;
+    color: black;
+    text-align: center;
+
+}
+
+.list section:nth-child(even) h3 {
+    background-color: var(--accent2-color);
+}
+
+.list section:nth-child(odd) h3 {
+    background-color: var(--accent3-color);
+}
+
+.list section a {
+    align-self: center;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    word-wrap: break-word;
+    max-width: 70%;
+}
+
+.list section:nth-child(even) {
+	background-color: var(--accent2-color);
 }
