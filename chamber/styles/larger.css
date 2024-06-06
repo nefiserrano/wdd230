@@ -35,8 +35,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .weather-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .advertisement img {
-        width: 700px;
+        width: 500px;
     }
 
     .discover {

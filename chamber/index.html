@@ -26,7 +26,7 @@
         </div>
         <img src="images/hero-image.webp" alt="Image of Pachuca">
         <p><strong>Join our community now by clicking the button below</strong></p>
-        <form action="#">
+        <form action="join.html">
             <input type="submit" value="Join now">
         </form>
     </header>
@@ -66,12 +66,23 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <p>20° C</p>
+            <div class="weather-grid">
+                <div>
+                    <h3>Current Weather</h3>
+                    <p id="location"></p>
+                    <figure>
+                        <img id="weather-icon" src="#" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p id="current-temp"></p>
+                </div>
+                <div id="forecast">
+                    <h3> Pachuca Three-day Temperature Forecast</h3>
+                </div>
+            </div>
         </div>
         <div class="advertisement">
             <h2>Take a look to our patreons!</h2>
-            <img src="images/advertisement1.webp" alt="Finance Advertisement">
-            <img src="images/advertisement2.webp" alt="Vacations Advertisement">
         </div>
     </main>
     <footer>
@@ -81,5 +92,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/advertisement.js"></script>
 </body>
 </html>

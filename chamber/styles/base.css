@@ -130,13 +130,18 @@ nav a:hover {
     background-color: var(--primary-color);
 }
 
-.weather h2 {
+.weather h2, .weather h3, .weather p, .weather figcaption {
     color: white;
 }
 
-.weather p {
-    padding: 2rem;
-    color: white;
+.weather p, .weather figcaption {
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.weather-grid {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .advertisement {
@@ -144,8 +149,10 @@ nav a:hover {
 }
 
 .advertisement img {
-    margin: 2rem;
     width: 300px;
+    height: auto;
+    margin: 1rem;
+    max-width: 360px;
 }
 
 footer {
